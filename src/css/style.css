@@ -1,0 +1,181 @@
+body {
+    background-color: #a8c8c5; 
+}
+
+header {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 0px;
+background-color: rgba(21, 13, 13, 0.476);
+
+        }
+
+
+.navbar-light .navbar-toggler {
+border-color: rgb(0, 0, 0);
+}   
+
+.image-size {
+width: 250%; 
+height: auto; 
+}
+.image-sizes {
+width: 310%; 
+height: auto; 
+}
+
+.logo-image {
+display: flex;
+align-items: center;
+width: 100%;
+margin: 0 !important;
+
+}
+
+#about {
+    max-width:60%;
+   height:40vh;
+   font-size:22px !important;
+}
+.hero-img-text {
+   display: flex;
+    justify-content: flex-end;
+}
+
+.portfolio {
+    margin-top: 600px;
+}
+
+.hero-img {
+    background: url('../../img/Bg_billede_øverst.jpeg')no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 600px;
+}
+
+.img-slider {
+max-height:500px;
+}
+
+#NIKE {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.NIKE-img {
+    background: url('../../img/blob.png')no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 800px;
+    margin-bottom: 70px;
+}
+
+
+.carousel-item img {
+max-height:500px;
+width:auto !important; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.carousel1 {
+transition: transform 0.3s ease-in-out;
+}
+
+#contact {
+    margin-left: -15px;
+    padding-left: 20px;
+    margin-top: 0px;
+    width: calc(100% + 30px);
+    background-color: #eba99dd0;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    max-height: 100%; 
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    height: 50vh; 
+    overflow-x: auto; 
+}
+
+.image-container img {
+    width: 450px;
+}
+
+.image-container-2 {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    height: 50vh; 
+    overflow-x: auto; 
+}
+
+.image-container-2 img {
+    width: 450px;
+}
+
+.image-container-3 {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    height: 50vh; 
+    overflow-x: auto; 
+}
+
+.image-container-3 img {
+    width: 450px;
+}
+
+.image-container-4 {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    height: 50vh; 
+    overflow-x: auto; 
+}
+
+.image-container-4 img {
+    width: 450px;
+}
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    #about {
+        max-width:60%;
+       max-height:30vh;
+       font-size:11px !important;
+    }
+    .hero-img-text {
+        display: flex;
+         justify-content: flex-end;
+     }
+     
+     
+     .hero-img {
+         background: url('../../img/Bg_billede_øverst.jpeg')no-repeat center center; 
+         -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;
+         height: 400px;
+     }
+  }
